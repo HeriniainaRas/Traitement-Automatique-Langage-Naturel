@@ -13,6 +13,7 @@ Membre de l'équipe (IGGLIA 5) :
 ## Stack Technologique :
 
 ## description du processus et du modèle :
+   * DATASET : On a récupéré notre dataset sur HuggingFace (https://huggingface.co/datasets/dbarbedillo/SMS_Spam_Multilingual_Collection_Dataset), mais il était multilingue, donc on a seulement récupéré les colonnes des textes en français ainsi que le label qui détecte si le texte est un ham ou spam
 
 ## Méthode ML :
 
