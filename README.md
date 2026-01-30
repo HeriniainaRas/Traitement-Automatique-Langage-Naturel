@@ -12,15 +12,18 @@ Membre de l'équipe (IGGLIA 5) et le rôle respectif de chacun:
 
 ## Stack Technologique :
   * Front : Next js
-Choisi pour sa rapidité et sa flexibilité dans la création d’interfaces web modernes et réactives.
-Permet d’afficher les résultats de la détection de spam/ham en temps réel et d’offrir une expérience utilisateur fluide.
+
+    Choisi pour sa rapidité et sa flexibilité dans la création d’interfaces web modernes et réactives.
+    Permet d’afficher les résultats de la détection de spam/ham en temps réel et d’offrir une expérience utilisateur fluide.
 
   * Modèle ML : Python
-Nous avons choisi Python car c'etait imposé et de plus il fournit déjà des bibliothèques qui facilitent et optimisent l'implémentation et la performance du modèle.
+
+    Nous avons choisi Python car c'etait imposé et de plus il fournit déjà des bibliothèques qui facilitent et optimisent l'implémentation et la performance du modèle.
    
   * Backend : Django
-Utilisé pour gérer la logique serveur,la communication entre le front-end et le modèle de machine learning.
-Permet de faciliter le déploiement de l’application.
+
+    Utilisé pour gérer la logique serveur,la communication entre le front-end et le modèle de machine learning.
+    Permet de faciliter le déploiement de l’application.
 
 ## Description du processus :
    * PIPELINE DE PRE-TRAITEMENT : TF-IDF et N-GRAM (Bigram)
