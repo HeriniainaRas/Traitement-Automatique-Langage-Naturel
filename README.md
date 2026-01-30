@@ -14,8 +14,14 @@ Membre de l'équipe (IGGLIA 5) :
 
 ## Description du processus et du modèle :
    * PIPELINE DE PRE-TRAITEMENT : TF-IDF
+
+Nous avons choisi d’utiliser TF-IDF plutôt que Bag-of-Words car :
+         - elle met davantage en valeur les mots rares et discriminants, essentiels pour distinguer les messages spam des messages ham 
+         - réduit l’influence des mots fréquents et peu informatifs, ce qui améliore la qualité de la classification.
+
     
    * MODELE ML CHOISI: LOGISTIC REGRESSION
+     
 Nous avons choisi d’utiliser TF-IDF combiné à la régression logistique car :
          - moins de risque de surapprentissage par rapport à d'autres modèles(Random Forest) sur un petit dataset.
          - cette approche est rapide à entraîner
