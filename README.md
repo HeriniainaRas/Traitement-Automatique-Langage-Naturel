@@ -12,11 +12,18 @@ Membre de l'équipe (IGGLIA 5) :
 
 ## Stack Technologique :
 
-## description du processus et du modèle :
-   * DATASET : On a récupéré notre dataset sur HuggingFace (https://huggingface.co/datasets/dbarbedillo/SMS_Spam_Multilingual_Collection_Dataset), mais il était multilingue, donc on a seulement récupéré les colonnes des textes en français ainsi que le label qui détecte si le texte est un ham ou spam
+## Description du processus et du modèle :
+   * PIPELINE DE PRE-TRAITEMENT : TF-IDF
+    
+   * MODELE ML CHOISI: LOGISTIC REGRESSION
+Nous avons choisi d’utiliser TF-IDF combiné à la régression logistique car :
+         - moins de risque de surapprentissage par rapport à d'autres modèles(Random Forest) sur un petit dataset.
+         - cette approche est rapide à entraîner
+         - efficace pour des textes courts comme les SMS
 
 ## Méthode ML :
 
 ## Datasets Utilisés : 
+On a récupéré notre dataset sur HuggingFace (https://huggingface.co/datasets/dbarbedillo/SMS_Spam_Multilingual_Collection_Dataset), mais il était multilingue, donc on a seulement récupéré les colonnes des textes en français ainsi que le label qui détecte si le texte est un ham ou spam. 
 
 ## lien vers l’application web hébergée : 
